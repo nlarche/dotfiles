@@ -1,0 +1,22 @@
+[user]
+	name = nilar
+	email = nicolas.larche@rca.fr
+[alias]
+	tree = log --graph --decorate --pretty=oneline --abbrev-commit --all --color --date=short
+	ci = commit
+	st = status
+	co = checkout
+	br = branch
+[push]
+	default = simple
+[diff]
+        tool = meld
+[merge]
+        tool = mymeld
+[mergetool "mymeld"]
+        cmd = meld --auto-merge --output "$MERGED" "$LOCAL" "$BASE" "$REMOTE"
+[difftool]
+        prompt = false
+[mergetool]
+        prompt = false
+
