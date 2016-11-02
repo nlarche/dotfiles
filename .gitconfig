@@ -1,6 +1,6 @@
 [user]
-	name = nilar
-	email = nicolas.larche@rca.fr
+	name = nlarche
+	email = nico060984@gmail.com
 [alias]
 	tree = log --graph --decorate --pretty=oneline --abbrev-commit --all --color --date=short
 	ci = commit
